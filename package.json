@@ -1,0 +1,50 @@
+{
+  "name": "camper-gold",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3333"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^4.7.3",
+    "@nuxt/content": "^1.9.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/i18n": "^7.0.0",
+    "@nuxtjs/pwa": "^3.0.2",
+    "apexcharts": "^3.27.2",
+    "core-js": "^3.6.5",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mapbox-gl": "^2.4.1",
+    "nuxt": "^2.14.6",
+    "nuxt-gmaps": "^1.2.10",
+    "v-owl-carousel": "^1.0.8",
+    "vue-apexcharts": "^1.6.1",
+    "vue-cookieconsent-component": "^1.2.0",
+    "vue-hotel-datepicker2": "^1.0.13",
+    "vue-mapbox": "^0.4.1",
+    "vue-mapbox-geocoder": "^0.2.0",
+    "vue-picture-swipe": "^2.1.0",
+    "vue-quill-editor": "^3.0.6",
+    "vuex-persist": "^3.1.3",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0"
+  }
+}

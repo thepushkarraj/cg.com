@@ -1,0 +1,86 @@
+<template>
+  <span>
+    <!-- <v-row v-for="item, index in $allLanguages" :key="index">
+      <div v-show="tab === item.code" class="col-md-12">
+      </div>
+    </v-row> -->
+    <v-row>
+      <div class="col-md-6">
+        <TextInput
+          :label="$t('NumberofGears')"
+          :tooltip="$t('NumberofGearsInCamper')"
+          :name="'no_of_gears'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Beds')"
+          :tooltip="$t('NumberofBedsInCamper')"
+          :name="'beds'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('NumberofSeats')"
+          :tooltip="$t('NumberofSeatsInCamper')"
+          :name="'seats'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('FirstRegistration')"
+          :tooltip="$t('FirstRegistrationDate')"
+          :name="'first_registration'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Displacement')"
+          :tooltip="$t('DisplacementOfCamper')"
+          :name="'displacement'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Power')"
+          :tooltip="$t('PowerOfCamper')"
+          :name="'power'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Length')"
+          :tooltip="$t('LengthOfCamper')"
+          :name="'length'"
+          :required="false"
+        />
+      </div>
+      <div class="col-md-6">
+        <TextInput
+          :label="$t('Width')"
+          :tooltip="$t('WidthOfCamper')"
+          :name="'width'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Height')"
+          :tooltip="$t('HeightOfCamper')"
+          :name="'height'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Weight')"
+          :tooltip="$t('WeightOfCamper')"
+          :name="'weight'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('Mileage')"
+          :tooltip="$t('MileageOfCamper')"
+          :name="'mileage'"
+          :required="false"
+        />
+        <TextInput
+          :label="$t('FueltankCapacity')"
+          :tooltip="$t('FuelTankCapacityOfCamper')"
+          :name="'fuel_tank_capacity'"
+          :required="false"
+        />
+      </div>
+    </v-row>
+  </span>
+</template>
